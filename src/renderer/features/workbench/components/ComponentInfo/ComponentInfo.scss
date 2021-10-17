@@ -1,0 +1,74 @@
+.component-info {
+  .container-component-info {
+    position: static;
+
+    .main-info {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        height: 48px;
+        width: 48px;
+        margin: 15px;
+      }
+
+      .label-boxie-gray {
+        font-family: 'Space Mono', monospace;
+        font-weight: 400;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+  }
+
+  .component-details-card {
+    width: fit-content;
+    max-width: 600px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    padding: 16px 0 0;
+
+    z-index: 1000;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 10px 15px 0px rgba(0, 0, 0, 0.1);
+
+
+  .tiny-container-detail {
+    margin: 0px 16px 16px;
+
+    p {
+      margin: 0px;
+    }
+
+    .title-detail {
+      color: #3B82F6;
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      line-height: normal;
+    }
+
+    .desc-detail {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .url {
+      text-decoration: underline;
+      word-wrap: normal;
+      line-height: normal;
+    }
+  }
+
+  }
+}
+
+

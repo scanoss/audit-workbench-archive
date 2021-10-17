@@ -1,0 +1,60 @@
+.file-tree-container {
+  color: #3F3F46;
+  font-weight: 400;
+
+  .rct-node {
+    margin: 5px 0;
+  }
+
+  .rct-node-icon {
+    color: #3F3F46;
+  }
+
+  .match-info-result {
+    font-weight: 600;
+    color: #27272A;
+
+    .rct-node-icon {
+      color: #27272A;
+    }
+  }
+
+
+  .filter-item {
+    font-weight: 400;
+    color: #968d8d8a;
+
+    .rct-node-icon {
+      color: #968d8d8a;
+    }
+  }
+
+  .exclude-item {
+    font-weight: 600;
+    color: #968d8d8a;
+    text-decoration:line-through;
+
+    .rct-node-icon {
+      color: #968d8d8a;
+    }
+  }
+
+  .no-match {
+    font-weight: 400;
+  }
+
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    font-size: 12px;
+    margin-bottom: 60px;
+    color: var(--color-status-ignored);
+  }
+}

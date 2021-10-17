@@ -1,0 +1,74 @@
+#Workspace {
+  display: grid;
+
+  .app-header {
+    margin-top: 20px;
+
+    .search-input {
+      width: 400px ;
+    }
+  }
+
+  .MuiPaper-root {
+    max-height: 100%;
+  }
+
+  .projects-table {
+      min-width: 650px;
+
+      .MuiTableHead-root {
+        background-color: #F4F4F5;
+        font-weight: 600;
+      }
+
+      .MuiTableRow-root {
+        cursor: pointer;
+
+        &.scanning-not-complete {
+
+          cursor: default;
+
+          .MuiTableCell-root{
+            color: grey;
+          }
+          //opacity: 0.5;
+
+          //pointer-events: none;
+        }
+
+        .btn-actions {
+          visibility: hidden;
+          display: flex;
+          justify-content: flex-end;
+        }
+
+        &:hover .btn-actions {
+          visibility: visible;
+
+        }
+      }
+
+      .row-actions {
+          margin: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+      }
+  }
+
+  .empty-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    .empty-list {
+      width: 400px;
+      margin: 0 auto 150px;
+      text-align: center;
+
+      h3, p {
+        margin: 10px;
+      }
+    }
+  }
+
+}

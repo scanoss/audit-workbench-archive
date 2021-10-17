@@ -1,0 +1,20 @@
+{
+  "name": "scanoss-workbench",
+  "productName": "SCANOSS Audit Workbench",
+  "description": "Desktop version to use SCANOSS OSS in your projects",
+  "version": "0.12.0",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "SCANOSS",
+    "email": "info@scanoss.com",
+    "url": "https://www.scanoss.com/"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sqlite3": "5.0.0"
+  }
+}
