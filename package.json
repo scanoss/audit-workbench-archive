@@ -91,13 +91,13 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "scanoss-dt",
-      "repo": "scanoss-dt"
+      "owner": "scanoss",
+      "repo": "audit-workbench"
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scanoss/scanoss-dt"
+    "url": "git+https://github.com/scanoss/audit-workbench"
   },
   "author": {
     "name": "SCANOSS",
@@ -106,13 +106,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scanoss/scanoss-dt/issues"
+    "url": "https://github.com/scanoss/audit-workbench/issues"
   },
   "keywords": [
     "scanoss",
     "opensource"
   ],
-  "homepage": "https://github.com/scanoss/scanoss-dt#readme",
+  "homepage": "https://github.com/scanoss/audit-workbench#readme",
   "jest": {
     "testURL": "http://localhost/",
     "moduleNameMapper": {
